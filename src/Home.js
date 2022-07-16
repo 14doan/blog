@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import BlogList from "./BlogList";
 
 
@@ -14,11 +14,22 @@ const Home = () => {
         content:"You're morbidly mistaken, if you think you don't have haters. A hater is just someone who screams they don't like you",
         author: "s0", id:3}
     ]);
+
+    const[name,setName]=useState('Jay');
     
+    const deleteClick=(id)=>{
+        const newBlogs=blogs.filter(blog => blog.id !== id);
+        setBlogs(newBlogs);
+    }
+   
+    useEffect(()=>{
+        console.log("I render at the start and when the state of my dependencies changes")
+        console.log(name);
+    },[name])
     return ( 
         <div className="home">
-            <BlogList propBlogs={blogs} title="All blogs"/>
-            <BlogList propBlogs={blogs.filter((b)=>b.author==="s0")} title="Survival0's blogs"/>
+            <BlogList propBlogs={blogs} title="All blogs" del={deleteClick}/>
+            <button onClick={()=>setName('Dat')}>change name</button>
         </div>
      );
 }
