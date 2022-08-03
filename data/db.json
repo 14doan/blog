@@ -1,13 +1,28 @@
 {
-    "blogs":[
-        {"title": "Dream Big",
-        "body":"What is a ‘big’ dream? Many are brainwashed into thinking that big means being a zillionaire with 10 houses and private beach. ",
-        "author": "s0", "id":1},
-        {"title": "Types Of Riches",
-        "body":"What does it mean to be rich? It means you can afford. The richer you are, the more you can afford. This holds true across all areas of life.",
-        "author": "s1", "id":2},
-        {"title": "See Your Haters",
-        "body":"You're morbidly mistaken, if you think you don't have haters. A hater isn't just someone who screams they don't like you",
-        "author": "s0", "id":3}
-]
+  "blogs": [
+    {
+      "title": "Dream Big",
+      "body": "What is a ‘big’ dream? Many are brainwashed into thinking that big means being a zillionaire with 10 houses and private beach. ",
+      "author": "s0",
+      "id": 1
+    },
+    {
+      "title": "Types Of Riches",
+      "body": "What does it mean to be rich? It means you can afford. The richer you are, the more you can afford. This holds true across all areas of life.",
+      "author": "s1",
+      "id": 2
+    },
+    {
+      "title": "gf",
+      "body": "shes jarring",
+      "author": "s0",
+      "id": 4
+    },
+    {
+      "title": "women",
+      "body": "just be real with these lot, lying is long",
+      "author": "s0",
+      "id": 8
+    }
+  ]
 }
