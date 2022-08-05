@@ -12,7 +12,7 @@ function App() {
         <Navbar/>
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/dojo-app">
               <Home/>
             </Route>
             <Route path="/Create">
