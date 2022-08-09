@@ -12,13 +12,13 @@ function App() {
         <Navbar/>
         <div className="content">
           <Switch>
-            <Route exact path="/dojo-app/">
+            <Route exact path="/">
               <Home/>
             </Route>
-            <Route path="/dojo-app/Create">
+            <Route path="/Create">
               <Create/>
             </Route>
-            <Route path="/dojo-app/blogs/:id">
+            <Route path="/blogs/:id">
               <BlogDetails/>
             </Route>
             <Route path="*">
